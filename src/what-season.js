@@ -49,6 +49,7 @@ function getSeason(date) {
   }
 
   if (!(date instanceof Date)) {
+    date = null
     throw new Error('Invalid date!')
   }
   
